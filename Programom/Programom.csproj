@@ -80,6 +80,9 @@
     <Compile Include="Middle_Earth.xaml.cs">
       <DependentUpon>Middle_Earth.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Star_Wars.xaml.cs">
+      <DependentUpon>Star_Wars.xaml</DependentUpon>
+    </Compile>
     <Page Include="Hungary.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -97,6 +100,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Middle_Earth.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Star_Wars.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -136,6 +143,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="fantasy_bkgrd.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Tatmap.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

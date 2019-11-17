@@ -58,3 +58,5 @@ D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Pr
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Programom.pdb
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Middle_Earth.g.cs
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Middle_Earth.baml
+D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Star_Wars.g.cs
+D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Star_Wars.baml

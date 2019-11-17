@@ -1,4 +1,6 @@
-﻿<Window x:Class="Programom.MainWindow"
+﻿<Window 
+    WindowStyle="ToolWindow" ResizeMode="NoResize" WindowState="Maximized"
+    x:Class="Programom.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -45,14 +47,21 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <StackPanel Grid.Column="0" Margin="280 10 280 10">
-                    <Button Background="Transparent" Height="200" FontSize="30" FontFamily="Times New Roman" FontWeight="DemiBold" Margin="0,0,-0.2,0">Middle-Earth</Button>
+                <StackPanel Grid.Column="0" Margin="20 10 20 10">
+                    <Button Background="Transparent" Height="200" FontSize="30" FontFamily="Times New Roman" FontWeight="DemiBold" Margin="0,0,-0.2,0" x:Name="Középfölde" Click="Középfölde_Click">Middle-Earth</Button>
                 </StackPanel>
-                <StackPanel Grid.Column="1" Margin="280 10 280 10">
-                    <Button Background="Transparent" Height="200" FontSize="30" FontFamily="Times New Roman" FontWeight="DemiBold" HorizontalAlignment="Left" Margin="0,0,-0.2,0" >Hungary</Button>
+                
+                <StackPanel Grid.Column="2" Margin="20 10 20 10">
+                    <Button Background="Transparent" Height="200" FontSize="30" FontFamily="Times New Roman" FontWeight="DemiBold" HorizontalAlignment="Left" Margin="0,0,-0.2,0" x:Name="Hungary" Click="Hungary_Click">Hungary</Button>
                 </StackPanel>
+
+                <StackPanel Grid.Column="1" Margin="10 10 10 10">
+                    <Button Background="Transparent" Height="200" FontSize="30" FontFamily="Times New Roman" FontWeight="DemiBold" HorizontalAlignment="Center" x:Name="Star_Wars" Click="Star_Wars_Click">Star Wars</Button>
+                </StackPanel>
+                
             </Grid>
 
             <Grid Margin="500 20 500 0 ">
