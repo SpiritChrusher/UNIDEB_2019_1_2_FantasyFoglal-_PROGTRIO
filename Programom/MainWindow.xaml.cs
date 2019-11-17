@@ -41,9 +41,20 @@ namespace Programom
         }
         private void Szövegbuborék_MouseEnter(object sender, MouseEventArgs e)
         {
-            Window1 pé = new Window1();
-            pé.Show();
-            
+
+        }
+
+        private void Elsőszöveg_MouseEnter(object sender, MouseEventArgs e)
+        {
+            /*    Hungary_map térkép = new Hungary_map();
+                térkép.Show();*/
+         //   Hungary kép = new Hungary();
+           // this.Content = kép;
+        }
+
+        private void Exit_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            App.Current.Shutdown();
         }
     }
 }

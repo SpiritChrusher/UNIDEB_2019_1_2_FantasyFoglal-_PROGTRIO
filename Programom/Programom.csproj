@@ -74,19 +74,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Hungary_map.xaml.cs">
-      <DependentUpon>Hungary_map.xaml</DependentUpon>
+    <Compile Include="Hungary.xaml.cs">
+      <DependentUpon>Hungary.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pentagon.xaml.cs">
       <DependentUpon>Pentagon.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Translate.xaml.cs">
-      <DependentUpon>Translate.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Window1.xaml.cs">
-      <DependentUpon>Window1.xaml</DependentUpon>
-    </Compile>
-    <Page Include="Hungary_map.xaml">
+    <Page Include="Hungary.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -103,14 +97,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Pentagon.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Translate.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Window1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -141,6 +127,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Townships_%28districts%29_of_Hungary.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

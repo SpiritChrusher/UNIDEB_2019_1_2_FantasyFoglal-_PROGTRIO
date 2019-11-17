@@ -5,39 +5,65 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Programom"
         mc:Ignorable="d"
-        Title="MainWindow" Height="675" Width="1200">
+        Title="MainWindow" Height="1080" Width="1920">
     <Border Padding="10">
-            <StackPanel Background="Orange">
-                <TextBlock Text="Kell szöveg" FontSize="17"/>
-                <TextBox Padding="2"/>
-                <TextBlock Text="Ide is kell" FontSize="20"/>
-                <RichTextBox Padding="1" FontFamily="Times New Roman" FontSize="16"/>
+        <StackPanel Background="Orange">
 
-                <!-- Itt már grid van, mert így lehet oszlopokba rendezni -->
-            
-                <Grid Margin="10 30 10 30">
+            <TextBlock Text="Bejelentkezés" FontSize="24" FontWeight="Bold" x:Name="Elsőszöveg" HorizontalAlignment="Center" MouseEnter="Elsőszöveg_MouseEnter" Padding="5 3 3 3" Margin="507,0,506.6,0" Height="95"/>
+
+
+
+            <!-- Itt már grid van, mert így lehet oszlopokba rendezni -->
+
+            <Grid Margin="10 30 10 30">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <StackPanel Grid.Column="0" Margin="0 0 10 0">
-                    <TextBlock Text="Kell szöveg" FontSize="17"/>
-                    <TextBox Padding="2"/>
+                <StackPanel Grid.Column="0" Margin=" 0 0 10 0">
+                    <TextBlock Text="Player's name:" FontSize="24" FontFamily="Times New Roman" FontWeight="Heavy" HorizontalAlignment="Center"/>
+                    <RichTextBox Padding="1" FontFamily="Times New Roman" FontSize="16" Margin="280 10 280 10"/>
                 </StackPanel>
 
                 <StackPanel Grid.Column="1" Margin="0 0 10 0">
-                    <TextBlock Text="Kell szöveg" FontSize="17"/>
-                    <TextBox Padding="2"/>
+                    <TextBlock Text="Choose your color:" FontSize="24" FontWeight="Heavy" FontFamily="Times New Roman" HorizontalAlignment="Center"/>
+                    <ComboBox Margin="300 10 300 10">
+                        <ComboBoxItem>Red</ComboBoxItem>
+                        <ComboBoxItem>Blue</ComboBoxItem>
+                        <ComboBoxItem>Yellow</ComboBoxItem>
+                        <ComboBoxItem>Black</ComboBoxItem>
+                    </ComboBox>
                 </StackPanel>
-
-                <StackPanel Grid.Column="2" Margin="0 0 10 0">
-                    <TextBlock Text="Kell szöveg" FontSize="17"/>
-                    <TextBox x:Name="Szövegbuborék" MouseEnter="Szövegbuborék_MouseEnter" Padding="2"/>
-                </StackPanel>
-
             </Grid>
-            </StackPanel>
-        </Border>
+
+            <Grid Margin="10 80 10 30">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" Margin="280 10 280 10">
+                    <Button Height="200" FontSize="30" FontFamily="Times New Roman" FontWeight="DemiBold" Margin="0,0,-0.2,0">Middle-Earth</Button>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Margin="280 10 280 10">
+                    <Button Height="200" FontSize="30" FontFamily="Times New Roman" FontWeight="DemiBold" HorizontalAlignment="Left" Margin="0,0,-0.2,0" >Hungary</Button>
+                </StackPanel>
+            </Grid>
+
+            <Grid Margin="500 20 500 0 ">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0">
+                    <Button Height="150" Width="250" FontFamily="Times New Roman" FontWeight="Black" FontSize="40" x:Name="Exit" MouseLeftButtonDown="Exit_MouseLeftButtonDown">Exit</Button>
+                </StackPanel>
+            </Grid>
+
+
+
+
+
+        </StackPanel>
+    </Border>
 </Window>

@@ -13,8 +13,6 @@ C:\Users\Nergal\source\repos\Programom\obj\Debug\Programom.csproj.GenerateResour
 C:\Users\Nergal\source\repos\Programom\obj\Debug\Programom.csproj.CoreCompileInputs.cache
 C:\Users\Nergal\source\repos\Programom\obj\Debug\Programom.exe
 C:\Users\Nergal\source\repos\Programom\obj\Debug\Programom.pdb
-C:\Users\Nergal\source\repos\Programom\obj\Debug\Window1.baml
-C:\Users\Nergal\source\repos\Programom\obj\Debug\Window1.g.cs
 C:\Users\Nergal\source\repos\Programom\bin\Debug\MaterialDesignColors.dll
 C:\Users\Nergal\source\repos\Programom\bin\Debug\MaterialDesignThemes.Wpf.dll
 C:\Users\Nergal\source\repos\Programom\bin\Debug\MaterialSkin.dll
@@ -26,6 +24,7 @@ C:\Users\Nergal\source\repos\Programom\bin\Debug\IronWebScraper.dll
 C:\Users\Nergal\source\repos\Programom\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Nergal\source\repos\Programom\bin\Debug\IronWebScraper.xml
 C:\Users\Nergal\source\repos\Programom\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Nergal\source\repos\Programom\obj\Debug\Hungary_map.g.cs
 C:\Users\Nergal\source\repos\Programom\obj\Debug\Pentagon.g.cs
-C:\Users\Nergal\source\repos\Programom\obj\Debug\Translate.g.cs
+C:\Users\Nergal\source\repos\Programom\obj\Debug\Pentagon.baml
+C:\Users\Nergal\source\repos\Programom\obj\Debug\Hungary.g.cs
+C:\Users\Nergal\source\repos\Programom\obj\Debug\Hungary.baml
