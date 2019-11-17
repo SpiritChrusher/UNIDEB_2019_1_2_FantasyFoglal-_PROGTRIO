@@ -21,16 +21,7 @@ namespace Programom
     /// </summary>
     /// 
     
-    public class Sajt
-    {
-        public string előnév;
-        public string utónév;
-        public bool id;
 
-        public string Name()
-        { return előnév + " " + utónév; }
-
-    }
     public partial class MainWindow : Window
     {
 
@@ -40,18 +31,8 @@ namespace Programom
 
 
         }
-        private void Szövegbuborék_MouseEnter(object sender, MouseEventArgs e)
-        {
 
-        }
-
-        private void Elsőszöveg_MouseEnter(object sender, MouseEventArgs e)
-        {
-            /*    Hungary_map térkép = new Hungary_map();
-                térkép.Show();*/
-         //   Hungary kép = new Hungary();
-           // this.Content = kép;
-        }
+        Player gamer = new Player();
 
 
         private void Exit_Click(object sender, RoutedEventArgs e)
@@ -77,6 +58,12 @@ namespace Programom
 
         private void Star_Wars_Click(object sender, RoutedEventArgs e)
         {
+
+          gamer.Name = namebox.Text;
+          gamer.Color =  colorbox.Text;
+
+
+
             Star_Wars tatooine = new Star_Wars();
             this.Content = tatooine;
         }

@@ -80,6 +80,7 @@
     <Compile Include="Middle_Earth.xaml.cs">
       <DependentUpon>Middle_Earth.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Player.cs" />
     <Compile Include="Star_Wars.xaml.cs">
       <DependentUpon>Star_Wars.xaml</DependentUpon>
     </Compile>

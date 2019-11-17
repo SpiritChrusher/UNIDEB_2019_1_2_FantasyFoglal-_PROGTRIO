@@ -15,7 +15,7 @@
     <Border Padding="10">
         <StackPanel>
 
-            <TextBlock Text="Bejelentkezés" FontSize="34" FontWeight="ExtraBlack" x:Name="Elsőszöveg" HorizontalAlignment="Center" Padding="5 3 3 3" Margin="507,0,506.6,0" Height="95" Foreground="#FFB10B0B"/>
+            <TextBlock Text="Bejelentkezés" FontSize="34" FontWeight="ExtraBlack" HorizontalAlignment="Center" Padding="5 3 3 3" Margin="507,0,506.6,0" Height="95" Foreground="#FFB10B0B"/>
 
 
 
@@ -29,16 +29,18 @@
 
                 <StackPanel Grid.Column="0" Margin=" 0 0 10 0">
                     <TextBlock Text="Player's name:" FontSize="24" FontFamily="Times New Roman" FontWeight="Heavy" HorizontalAlignment="Center"/>
-                    <RichTextBox Padding="1" FontFamily="Times New Roman" FontSize="16" Margin="280 10 280 10"/>
+                    <TextBox Padding="1" FontFamily="Times New Roman" FontSize="16" Margin="280 10 280 10" x:Name="namebox"/>
                 </StackPanel>
 
                 <StackPanel Grid.Column="1" Margin="0 0 10 0">
                     <TextBlock Text="Choose your color:" FontSize="24" FontWeight="Heavy" FontFamily="Times New Roman" HorizontalAlignment="Center"/>
-                    <ComboBox Margin="300 10 300 10">
-                        <ComboBoxItem>Red</ComboBoxItem>
-                        <ComboBoxItem>Blue</ComboBoxItem>
-                        <ComboBoxItem>Yellow</ComboBoxItem>
-                        <ComboBoxItem>Black</ComboBoxItem>
+                    <ComboBox Margin="300 10 300 10" Name="colorbox" IsEditable="True" IsReadOnly="True" Text="Select">
+                        <ComboBoxItem Content="Red"/>
+                        <ComboBoxItem Content="Blue"/>
+                        <ComboBoxItem Content="Black"/>
+                        <ComboBoxItem Content="Green"/>
+                        <ComboBoxItem Content="Yellow"/>
+                        <ComboBoxItem Content="Orange"/>
                     </ComboBox>
                 </StackPanel>
             </Grid>
