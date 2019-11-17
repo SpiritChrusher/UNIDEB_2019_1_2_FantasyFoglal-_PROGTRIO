@@ -7,3 +7,9 @@
 	A játékos tanulási módszerek bizonyítottan jobb eredménnyel adják át a tudást, mint a régi, vaskalapos módszerek,
 	így mi is úgy gondoltuk, hogy a játékos tanulás témakörében fogunk alkotni.
 	
+	
+3. Vágyálom rendszer 
+
+		a. kik használják a rendszert: 
+		
+		A program bármely
