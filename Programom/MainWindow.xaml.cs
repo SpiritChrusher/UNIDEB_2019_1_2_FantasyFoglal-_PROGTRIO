@@ -52,9 +52,10 @@ namespace Programom
            // this.Content = kép;
         }
 
-        private void Exit_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
         {
-            App.Current.Shutdown();
+            this.Close();
         }
     }
 }

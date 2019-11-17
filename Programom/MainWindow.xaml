@@ -3,13 +3,17 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Programom"
+
         mc:Ignorable="d"
         Title="MainWindow" Height="1080" Width="1920">
+    <Window.Background>
+        <ImageBrush ImageSource="fantasy_bkgrd.jpg"/>
+    </Window.Background>
+    
     <Border Padding="10">
-        <StackPanel Background="Orange">
+        <StackPanel>
 
-            <TextBlock Text="Bejelentkezés" FontSize="24" FontWeight="Bold" x:Name="Elsőszöveg" HorizontalAlignment="Center" MouseEnter="Elsőszöveg_MouseEnter" Padding="5 3 3 3" Margin="507,0,506.6,0" Height="95"/>
+            <TextBlock Text="Bejelentkezés" FontSize="34" FontWeight="ExtraBlack" x:Name="Elsőszöveg" HorizontalAlignment="Center" Padding="5 3 3 3" Margin="507,0,506.6,0" Height="95" Foreground="#FFB10B0B"/>
 
 
 
@@ -44,10 +48,10 @@
                 </Grid.ColumnDefinitions>
 
                 <StackPanel Grid.Column="0" Margin="280 10 280 10">
-                    <Button Height="200" FontSize="30" FontFamily="Times New Roman" FontWeight="DemiBold" Margin="0,0,-0.2,0">Middle-Earth</Button>
+                    <Button Background="Transparent" Height="200" FontSize="30" FontFamily="Times New Roman" FontWeight="DemiBold" Margin="0,0,-0.2,0">Middle-Earth</Button>
                 </StackPanel>
                 <StackPanel Grid.Column="1" Margin="280 10 280 10">
-                    <Button Height="200" FontSize="30" FontFamily="Times New Roman" FontWeight="DemiBold" HorizontalAlignment="Left" Margin="0,0,-0.2,0" >Hungary</Button>
+                    <Button Background="Transparent" Height="200" FontSize="30" FontFamily="Times New Roman" FontWeight="DemiBold" HorizontalAlignment="Left" Margin="0,0,-0.2,0" >Hungary</Button>
                 </StackPanel>
             </Grid>
 
@@ -56,7 +60,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Height="150" Width="250" FontFamily="Times New Roman" FontWeight="Black" FontSize="40" x:Name="Exit" MouseLeftButtonDown="Exit_MouseLeftButtonDown">Exit</Button>
+                    <Button Background="Transparent" Height="150" Width="250" FontFamily="Times New Roman" FontWeight="Black" FontSize="40" x:Name="Exit" Click="Exit_Click">Exit</Button>
                 </StackPanel>
             </Grid>
 

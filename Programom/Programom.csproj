@@ -77,8 +77,8 @@
     <Compile Include="Hungary.xaml.cs">
       <DependentUpon>Hungary.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pentagon.xaml.cs">
-      <DependentUpon>Pentagon.xaml</DependentUpon>
+    <Compile Include="Middle_Earth.xaml.cs">
+      <DependentUpon>Middle_Earth.xaml</DependentUpon>
     </Compile>
     <Page Include="Hungary.xaml">
       <SubType>Designer</SubType>
@@ -96,7 +96,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Pentagon.xaml">
+    <Page Include="Middle_Earth.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -130,6 +130,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Townships_%28districts%29_of_Hungary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Middle_earth.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="fantasy_bkgrd.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
