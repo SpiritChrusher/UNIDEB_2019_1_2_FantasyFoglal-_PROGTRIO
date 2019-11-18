@@ -60,3 +60,7 @@ D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Pr
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Middle_Earth.baml
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Star_Wars.g.cs
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Star_Wars.baml
+D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\DocumentFormat.OpenXml.dll
+D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\System.IO.Packaging.dll
+D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\DocumentFormat.OpenXml.xml
+D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\GeneratedInternalTypeHelper.g.cs

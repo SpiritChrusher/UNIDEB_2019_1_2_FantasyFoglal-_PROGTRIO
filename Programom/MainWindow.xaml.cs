@@ -32,8 +32,6 @@ namespace Programom
 
         }
 
-        Player gamer = new Player();
-
 
         private void Exit_Click(object sender, RoutedEventArgs e)
         {
@@ -58,10 +56,10 @@ namespace Programom
 
         private void Star_Wars_Click(object sender, RoutedEventArgs e)
         {
-
-          gamer.Name = namebox.Text;
-          gamer.Color =  colorbox.Text;
-
+            Player gamer = new Player();
+              gamer.Name = namebox.Text;
+             gamer.Color =  colorbox.Text;
+             Player.gamers.Add(gamer);
 
 
             Star_Wars tatooine = new Star_Wars();
