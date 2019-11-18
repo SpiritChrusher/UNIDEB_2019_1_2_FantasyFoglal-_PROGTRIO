@@ -28,12 +28,12 @@
                 </Grid.ColumnDefinitions>
 
                 <StackPanel Grid.Column="0" Margin=" 0 0 10 0">
-                    <TextBlock Text="Player's name:" FontSize="24" FontFamily="Times New Roman" FontWeight="Heavy" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Player's name:" FontSize="24" Foreground="White" FontFamily="Times New Roman" FontWeight="Heavy" HorizontalAlignment="Center"/>
                     <TextBox Padding="1" FontFamily="Times New Roman" FontSize="16" Margin="280 10 280 10" x:Name="namebox"/>
                 </StackPanel>
 
                 <StackPanel Grid.Column="1" Margin="0 0 10 0">
-                    <TextBlock Text="Choose your color:" FontSize="24" FontWeight="Heavy" FontFamily="Times New Roman" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Choose your color:" FontSize="24" Foreground="White" FontWeight="Heavy" FontFamily="Times New Roman" HorizontalAlignment="Center"/>
                     <ComboBox Margin="300 10 300 10" Name="colorbox" IsEditable="True" IsReadOnly="True" Text="Select">
                         <ComboBoxItem Content="Red"/>
                         <ComboBoxItem Content="Blue"/>
@@ -53,15 +53,15 @@
                 </Grid.ColumnDefinitions>
 
                 <StackPanel Grid.Column="0" Margin="20 10 20 10">
-                    <Button Background="Transparent" Height="200" FontSize="30" FontFamily="Times New Roman" FontWeight="DemiBold" Margin="0,0,-0.2,0" x:Name="Középfölde" Click="Középfölde_Click">Middle-Earth</Button>
+                    <Button Background="Transparent" Height="200" FontSize="30" FontFamily="Times New Roman" Foreground="White" FontWeight="DemiBold" Margin="0,0,-0.2,0" x:Name="Középfölde" Click="Középfölde_Click">Middle-Earth</Button>
                 </StackPanel>
                 
                 <StackPanel Grid.Column="2" Margin="20 10 20 10">
-                    <Button Background="Transparent" Height="200" FontSize="30" FontFamily="Times New Roman" FontWeight="DemiBold" HorizontalAlignment="Left" Margin="0,0,-0.2,0" x:Name="Hungary" Click="Hungary_Click">Hungary</Button>
+                    <Button Background="Transparent" Height="200" FontSize="30" FontFamily="Times New Roman" Foreground="Wheat" FontWeight="DemiBold" HorizontalAlignment="Left" Margin="0,0,-0.2,0" x:Name="Hungary" Click="Hungary_Click">Hungary</Button>
                 </StackPanel>
 
                 <StackPanel Grid.Column="1" Margin="10 10 10 10">
-                    <Button Background="Transparent" Height="200" FontSize="30" FontFamily="Times New Roman" FontWeight="DemiBold" HorizontalAlignment="Center" x:Name="Star_Wars" Click="Star_Wars_Click">Star Wars</Button>
+                    <Button Background="Transparent" Height="200" FontSize="30" FontFamily="Times New Roman" Foreground="White" FontWeight="DemiBold" HorizontalAlignment="Center" x:Name="Star_Wars" Click="Star_Wars_Click">Star Wars</Button>
                 </StackPanel>
                 
             </Grid>
@@ -71,7 +71,7 @@
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0">
-                    <Button Background="Transparent" Height="150" Width="250" FontFamily="Times New Roman" FontWeight="Black" FontSize="40" x:Name="Exit" Click="Exit_Click">Exit</Button>
+                    <Button Background="Transparent" Height="150" Width="250" Foreground="White" FontFamily="Times New Roman" FontWeight="Black" FontSize="40" x:Name="Exit" Click="Exit_Click">Exit</Button>
                 </StackPanel>
             </Grid>
 

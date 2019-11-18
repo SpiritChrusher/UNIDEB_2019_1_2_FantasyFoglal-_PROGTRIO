@@ -46,7 +46,9 @@ namespace Programom
 
         public Star_Wars()
         {
-            DataContext = játékos;
+
+         //   Névjelenít.Text = "Játékos: " + játékos.Name;
+            DataContext = Player.gamers[0]; //játékos;
             InitializeComponent();
 
             //this.DataContext = null;
