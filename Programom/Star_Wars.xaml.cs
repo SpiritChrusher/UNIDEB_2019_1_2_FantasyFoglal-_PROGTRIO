@@ -68,13 +68,82 @@ namespace Programom
       
         private void Középgomb_Click(object sender, RoutedEventArgs e)
         {
+        }
+
+        private void Gomb1_Click(object sender, RoutedEventArgs e)
+        {
+
             //Player.Pointincrease(Player.gamers[0]);
             // játékos.Points += 100;
 
             //Valahol outofrangeexception van abban az osztályban.
+
+
             Questions ablak = new Questions();
 
             ablak.Show();
+        }
+
+        private void Gomb2_Click(object sender, RoutedEventArgs e)
+        {
+
+            Questions ablak = new Questions();
+
+            ablak.Show();
+        }
+
+        private void Gomb3_Click(object sender, RoutedEventArgs e)
+        {
+            Questions ablak = new Questions();
+
+            ablak.Show();
+        }
+
+        private void Gomb4_Click(object sender, RoutedEventArgs e)
+        {
+            Questions ablak = new Questions();
+
+            ablak.Show();
+        }
+
+        private void Gomb5_Click(object sender, RoutedEventArgs e)
+        {
+            Questions ablak = new Questions();
+
+            ablak.Show();
+
+        }
+
+        private void Gomb6_Click(object sender, RoutedEventArgs e)
+        {
+            Questions ablak = new Questions();
+
+            ablak.Show();
+
+        }
+
+        private void Gomb7_Click(object sender, RoutedEventArgs e)
+        {
+            Questions ablak = new Questions();
+
+            ablak.Show();
+
+        }
+
+        private void Gomb8_Click(object sender, RoutedEventArgs e)
+        {
+            Questions ablak = new Questions();
+
+            ablak.Show();
+
+        }
+
+        private void Gomb9_Click(object sender, RoutedEventArgs e)
+        {
+            Questions ablak = new Questions();
+
+            ablak.Show();
+
         }
     }
 }
