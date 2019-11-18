@@ -31,15 +31,7 @@ C:\Users\Nergal\source\repos\Programom\obj\Debug\Hungary.baml
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\Programom.exe.config
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\Programom.exe
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\Programom.pdb
-D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\IronWebScraper.dll
-D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\MaterialDesignColors.dll
-D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\MaterialDesignThemes.Wpf.dll
-D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\MaterialSkin.dll
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\Newtonsoft.Json.dll
-D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\IronWebScraper.xml
-D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\MaterialDesignColors.pdb
-D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\MaterialDesignThemes.Wpf.pdb
-D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\MaterialDesignThemes.Wpf.xml
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\Newtonsoft.Json.xml
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Programom.csprojAssemblyReference.cache
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Hungary.g.cs
@@ -64,3 +56,6 @@ D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Pr
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\System.IO.Packaging.dll
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\DocumentFormat.OpenXml.xml
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\bin\Debug\System.IO.Packaging.xml
+D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Questions.g.cs
+D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Questions.baml
