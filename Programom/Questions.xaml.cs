@@ -29,60 +29,67 @@ namespace Programom
 
         static JObject Feladványok = JObject.Parse(jsonösszes);
 
-        private static int szamgenerator()
-        {
-            Random rand = new Random();
+        /*  private static int szamgenerator()
+          {
+              Random rand = new Random();
 
-            //   var tömb = Feladványok["SW"]["Kérdések"][3]["id"];
-
-
-            int szam = rand.Next(1, 17);// tömb.Count());
-            return szam;
-        }
+              //   var tömb = Feladványok["SW"]["Kérdések"][3]["id"];
 
 
-       static int sorszam = Questions.szamgenerator();
+              int szam = rand.Next(1, 17);// tömb.Count());
+              return szam;
+          } */
 
-        List<String> kérdések = new List<string>();
+        static Random rand = new Random(); 
+         ///Questions.szamgenerator();
 
-        static int megoldas = (int)Feladványok["SW"]["Kérdések"][sorszam]["answer"];
+        
 
-        private static List<String> feltölt(List<String> a)
+     /*   private static List<String> feltölt(List<String> a)
         {
             a = Feladványok["SW"]["Kérdések"][sorszam]["answers"].Select(x => (string)x).ToList();
             return a;
-        }
+        }*/
 
         public Questions()
         {
 
             InitializeComponent();
-            feltölt(kérdések);
+            //  feltölt(kérdések);
+            int sorszam = rand.Next(1, 17);
+            List<String> kérdések = Feladványok["SW"]["Kérdések"][sorszam]["answers"].Select(x => (string)x).ToList(); // new List<string>();
+
+           // int megoldas = (int)Feladványok["SW"]["Kérdések"][sorszam]["answer"];
+
+            Player.gamers[0].Helyes = (int)Feladványok["SW"]["Kérdések"][sorszam]["answer"];  //megoldas;
 
             testquestion.Text = Feladványok["SW"]["Kérdések"][sorszam]["question"].ToString();
             Button1.Content = kérdések[0];
             Button2.Content = kérdések[1];
             Button3.Content = kérdések[2];
             Button4.Content = kérdések[3];
-
         }
 
         private void Button4_Click(object sender, RoutedEventArgs e)
-        { int a = 4;
-            if(a == megoldas)
+        {
+            int a = 4;
+            if(a == Player.gamers[0].Helyes)
             {
-                Player.gamers[0].Points += 10;
+                Player.Pointincrease(Player.gamers[0]);
+                // Player.gamers[0].Points += 10;
                 this.Close();
             }
-            else { this.Close(); }
+            else
+            { this.Close(); }
         }
 
         private void Button3_Click(object sender, RoutedEventArgs e)
         {
             int a = 3;
-            if (a == megoldas)
+            if (a == Player.gamers[0].Helyes)
             {
-                Player.gamers[0].Points += 10;
+                Player.Pointincrease(Player.gamers[0]);
+              //  Player.gamers[0].Points += 10;
                 this.Close();
             }
             else { this.Close(); }
@@ -91,9 +98,10 @@ namespace Programom
         private void Button2_Click(object sender, RoutedEventArgs e)
         {
             int a = 2;
-            if (a == megoldas)
+            if (a == Player.gamers[0].Helyes)
             {
-                Player.gamers[0].Points += 10;
+                Player.Pointincrease(Player.gamers[0]);
+                // Player.gamers[0].Points += 10;
                 this.Close();
             }
             else { this.Close(); }
@@ -102,9 +110,11 @@ namespace Programom
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
             int a = 1;
-            if (a == megoldas)
+            if (a == Player.gamers[0].Helyes)
             {
-                Player.gamers[0].Points += 10;
+                Player.Pointincrease(Player.gamers[0]);
+                //Player.gamers[0].Points += 10;
+
                 this.Close();
             }
             else { this.Close(); }

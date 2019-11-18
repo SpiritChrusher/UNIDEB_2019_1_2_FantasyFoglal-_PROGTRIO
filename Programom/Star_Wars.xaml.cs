@@ -117,7 +117,6 @@ namespace Programom
         private void Gomb6_Click(object sender, RoutedEventArgs e)
         {
             Questions ablak = new Questions();
-
             ablak.Show();
 
         }
@@ -125,7 +124,7 @@ namespace Programom
         private void Gomb7_Click(object sender, RoutedEventArgs e)
         {
             Questions ablak = new Questions();
-
+            
             ablak.Show();
 
         }

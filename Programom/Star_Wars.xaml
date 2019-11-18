@@ -23,7 +23,7 @@
             <Grid DataContext="{Binding Source={StaticResource player}}">
                 <TextBlock Width="500" Height="80" HorizontalAlignment="Left" Foreground="#FFB01717" FontSize="26" 
                            Name="Pointtable" Text="{Binding Points, StringFormat=Pontok: {0},  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
-                
+
                 <Button Content="Exit" Height="80" Width="100" HorizontalAlignment="Right" x:Name="Exit" Click="Exit_Click"/>
             </Grid>
 
@@ -33,7 +33,18 @@
         <StackPanel Grid.Row="1">
             <Grid>
                 <Image Height="980" Width="1742" Source="Tatmap.jpg"/>
-                <Button Background="Transparent" Height="100" Width="200" x:Name="középgomb" Click="Középgomb_Click"/>
+                <Button Background="Transparent" Height="300" x:Name="gomb1" Click="Gomb1_Click" Margin="220,665,1125,164.6"/>
+                <Button Background="Transparent" Width="450" Margin="1250,75,220,774.6" x:Name="gomb2" Click="Gomb2_Click"/>
+                <Button Background="Transparent" Height="300" Width="450" Margin="795,665,675,164.6" x:Name="gomb3" Click="Gomb3_Click"/>
+                <Button Background="Transparent" Height="300" Width="450"  x:Name="gomb4" Click="Gomb4_Click" Margin="1250,665,220,164.6"/>
+                <Button Background="Transparent" Height="300" Width="450" Margin="1250,360,220,469.6" x:Name="gomb5" Click="Gomb5_Click"/>
+                <Button Background="Transparent" Height="300" Width="450" Margin="795,360,675,469.6" x:Name="gomb6" Click="Gomb6_Click"/>
+                <Button Background="Transparent" Height="300" Margin="220,360,1125,469.6" x:Name="gomb7" Click="Gomb7_Click"/>
+                <Button Background="Transparent" Width="450" Margin="800,75,670,769.6" x:Name="gomb8" Click="Gomb8_Click"/>
+                <Button Background="Transparent" Margin="220,75,1120,769.6" x:Name="gomb9" Click="Gomb9_Click"/>
+
+
+
             </Grid>
 
         </StackPanel>

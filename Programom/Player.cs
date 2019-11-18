@@ -69,6 +69,39 @@ namespace Programom
             }
         }
 
+        private int helyes;
+
+        public int Helyes
+        {
+            get => helyes;
+
+            set
+            {
+                if (helyes != value)
+                {
+                    helyes = value;
+                    OnPropertyChanged("Helyes");
+                }
+
+            }
+        }
+
+        private bool isTrue;
+        public bool IsTrue
+        {
+            get => isTrue;
+
+            set
+            {
+                if (isTrue != value)
+                {
+                    isTrue = value;
+                    OnPropertyChanged("IsTrue");
+                }
+
+            }
+        }
+
         public Player() { points = 0; } 
 
         public Player(string nev, string szin)
@@ -78,9 +111,16 @@ namespace Programom
             points = 0;
         }
 
+
+
         public static void Pointincrease(Player a)
         {
-            a.points += 100;
+            a.Points += 100;
+        }
+
+        public static void PointDecrease(Player a)
+        {
+            a.Points -= 100;
         }
 
 

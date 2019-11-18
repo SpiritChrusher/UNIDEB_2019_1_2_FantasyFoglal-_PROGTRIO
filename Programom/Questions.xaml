@@ -22,7 +22,7 @@
             </StackPanel>
 
         <StackPanel Grid.Row="1">
-            <TextBlock x:Name="testquestion"/>
+            <TextBlock x:Name="testquestion" HorizontalAlignment="Center"/>
         </StackPanel>
 
         <StackPanel Grid.Row="2">
