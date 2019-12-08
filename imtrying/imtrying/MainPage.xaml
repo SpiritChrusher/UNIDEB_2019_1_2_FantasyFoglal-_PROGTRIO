@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="imtrying.MainPage"
+             xmlns:views="clr-namespace:imtrying">
+
+    <StackLayout BackgroundColor="Ivory">
+        <!-- Place new controls here -->
+        <Label Text="Bejelentkezés" HorizontalOptions="Center" 
+               VerticalOptions="Start" TextColor="Crimson" FontSize="26"/>
+        
+        <Image x:Name="fantasy" Aspect="AspectFill" 
+               HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        
+        <Entry Placeholder="Name:"
+               x:Name="Nameplace"
+               IsPassword="False"
+           HorizontalOptions="Center"
+           VerticalOptions="Center" WidthRequest="100" />
+        
+        <Button x:Name="SW" Text="Star Wars" Clicked="SW_Clicked" 
+                BackgroundColor="Transparent" HorizontalOptions="Center" VerticalOptions="End"/>
+
+        <Button x:Name="test" Text="Test!" Clicked="test_Clicked" BackgroundColor="Cyan" HorizontalOptions="End" VerticalOptions="End"/>
+    </StackLayout>
+    
+</ContentPage>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="imtrying.TesztPage1">
+    <StackLayout>
+        <Label x:Name="Question" HorizontalOptions="Center" 
+               HeightRequest="120" WidthRequest="550"/>
+        <Button x:Name="Answer1" HorizontalOptions="Center" 
+                HeightRequest="60" WidthRequest="550" Clicked="Answer1_Clicked"/>
+        <Button x:Name="Answer2" HorizontalOptions="Center" 
+                HeightRequest="60" WidthRequest="550" Clicked="Answer2_Clicked"/>
+        <Button x:Name="Answer3" HorizontalOptions="Center" 
+                HeightRequest="60" WidthRequest="550" Clicked="Answer3_Clicked"/>
+        <Button x:Name="Answer4" HorizontalOptions="Center" 
+                HeightRequest="60" WidthRequest="550" Clicked="Answer4_Clicked"/>
+        <Label Text="Pontok: " TextColor="Blue" FontSize="22" 
+               HorizontalOptions="Center" HeightRequest="30" 
+               WidthRequest="300" x:Name="points"/>
+    </StackLayout>
+</ContentPage>

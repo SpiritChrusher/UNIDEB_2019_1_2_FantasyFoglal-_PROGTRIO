@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="imtrying.StarWars_Page">
+
+    <StackLayout>
+        <Grid>
+        <Label Text="Pontok: "
+                VerticalOptions="Start" 
+                HorizontalOptions="Start" 
+                   HeightRequest="50"
+                   />
+        <Button Text="Játék!" x:Name="startgame"
+                Clicked="startgame_Clicked" WidthRequest="80" 
+                HeightRequest="50" HorizontalOptions="End" 
+                VerticalOptions="Start"
+                />
+        </Grid>
+        <Image x:Name="Tatoo" Aspect="AspectFill" 
+               HorizontalOptions="Center" VerticalOptions="Center"
+               IsVisible="True" WidthRequest="500" HeightRequest="400"
+               BackgroundColor="CornflowerBlue"/>
+    </StackLayout>
+</ContentPage>
