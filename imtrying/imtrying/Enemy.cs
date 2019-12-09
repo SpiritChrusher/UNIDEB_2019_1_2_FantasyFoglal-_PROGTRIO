@@ -6,6 +6,10 @@ namespace imtrying
 {
     class Enemy : IPlayers
     {
+        private static List<string> Names = new List<string>() { "Charles", "Gilbert", "Simon", "George", "Brittany", "James", "Heather" };
+        
+
+
         private string name;
         public string Name
         {
@@ -25,15 +29,6 @@ namespace imtrying
         }
 
 
-        private string color;
-
-        public string Color
-        {
-            get => color;
-
-            set { color = value; }
-        }
-
         private int points;
 
         public int Points
@@ -44,6 +39,13 @@ namespace imtrying
             {
                 points = value;
             }
+        }
+
+
+        public Enemy()
+        {
+            name = Enemy.NameGenerate();
+            points = 0;
         }
 
           public bool IsTrue { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
@@ -61,6 +63,22 @@ namespace imtrying
         public void Pointincrease()
         {
             this.Points += 100;
+        }
+
+        static string NameGenerate()
+        {
+            Random rand = new Random();
+
+         int number =  rand.Next(0, Names.Count-1);
+
+            return Names[number];
+        }
+
+        public int SelfAnswer()
+        {
+            Random rand = new Random();
+
+            return rand.Next(1, 4);
         }
     }
 }

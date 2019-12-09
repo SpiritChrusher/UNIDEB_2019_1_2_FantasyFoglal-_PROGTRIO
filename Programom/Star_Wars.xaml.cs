@@ -146,5 +146,12 @@ namespace Programom
             ablak.Show();
 
         }
+
+        private void Vissza_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow fő = new MainWindow();
+            fő.Show();
+            
+        }
     }
 }

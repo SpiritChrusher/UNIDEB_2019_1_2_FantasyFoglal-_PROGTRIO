@@ -76,11 +76,13 @@ namespace Programom
             if(a == Player.gamers[0].Helyes)
             {
                 Player.Pointincrease(Player.gamers[0]);
-                // Player.gamers[0].Points += 10;
+                 Player.gamers[0].Points += 10;
                 this.Close();
             }
             else
-            { this.Close(); }
+            {
+                Player.gamers[0].Points -= 10;
+                this.Close(); }
         }
 
         private void Button3_Click(object sender, RoutedEventArgs e)
@@ -89,10 +91,12 @@ namespace Programom
             if (a == Player.gamers[0].Helyes)
             {
                 Player.Pointincrease(Player.gamers[0]);
-              //  Player.gamers[0].Points += 10;
+               Player.gamers[0].Points += 10;
                 this.Close();
             }
-            else { this.Close(); }
+            else {
+                Player.gamers[0].Points -= 10;
+                this.Close(); }
         }
 
         private void Button2_Click(object sender, RoutedEventArgs e)
@@ -101,10 +105,12 @@ namespace Programom
             if (a == Player.gamers[0].Helyes)
             {
                 Player.Pointincrease(Player.gamers[0]);
-                // Player.gamers[0].Points += 10;
+                 Player.gamers[0].Points += 10;
                 this.Close();
             }
-            else { this.Close(); }
+            else {
+                Player.gamers[0].Points -= 10;
+                this.Close(); }
         }
 
         private void Button1_Click(object sender, RoutedEventArgs e)
@@ -113,11 +119,13 @@ namespace Programom
             if (a == Player.gamers[0].Helyes)
             {
                 Player.Pointincrease(Player.gamers[0]);
-                //Player.gamers[0].Points += 10;
+                Player.gamers[0].Points += 10;
 
                 this.Close();
             }
-            else { this.Close(); }
+            else {
+                Player.gamers[0].Points -= 10;
+                this.Close(); }
         }
     }
 }

@@ -12,12 +12,6 @@ namespace imtrying
             set;
         }
 
-        string Color
-        {
-            get;
-            set;
-        }
-
         int Points
         {
             get;

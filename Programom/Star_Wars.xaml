@@ -7,7 +7,8 @@
       xmlns:m="clr-namespace:Programom"
       mc:Ignorable="d" 
       d:DesignHeight="1080" d:DesignWidth="1920"
-      Title="Star_Wars">
+      Title="Star_Wars"
+      >
 
     <Page.Resources>
         <m:Player x:Key="player"/>
@@ -23,7 +24,7 @@
             <Grid DataContext="{Binding Source={StaticResource player}}">
                 <TextBlock Width="500" Height="80" HorizontalAlignment="Left" Foreground="#FFB01717" FontSize="26" 
                            Name="Pointtable" Text="{Binding Points, StringFormat=Pontok: {0},  Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
-
+                <Button x:Name="Vissza" Content="Back" Width="100" HorizontalAlignment="Center" Click="Vissza_Click"/>
                 <Button Content="Exit" Height="80" Width="100" HorizontalAlignment="Right" x:Name="Exit" Click="Exit_Click"/>
             </Grid>
 
@@ -49,4 +50,6 @@
 
         </StackPanel>
     </Grid>
+
 </Page>
+

@@ -27,24 +27,12 @@ namespace imtrying
                 if (name == value)
                     return;
 
-                  //  name = "Horváth Jenő";
+                    name = "Horváth Jenő";
                 //    OnPropertyChanged(nameof(Name));
                  //  OnPropertyChanged(nameof(ShowName));
                 
 
             }
-        }
-
-    //    public string ShowName => $"Name is: {Name}";
-
-
-        private string color;
-
-        public string Color
-        {
-            get => color;
-
-            set { color = value; }
         }
 
         public string Email
@@ -105,45 +93,12 @@ namespace imtrying
 
         public string ShowPoints => $"Pontok: {Points}";
 
-  /*      private int helyes;
-
-        public int Helyes
-        {
-            get => helyes;
-
-            set
-            {
-                if (helyes != value)
-                {
-                    helyes = value;
-                    OnPropertyChanged("Helyes");
-                }
-
-            }
-        }
-        
-        private bool isTrue;
-        public bool IsTrue
-        {
-            get => isTrue;
-
-            set
-            {
-                if (isTrue != value)
-                {
-                    isTrue = value;
-                    OnPropertyChanged("IsTrue");
-                }
-
-            }
-        }
-        */
         public Player() { points = 0; } 
 
-        public Player(string nev, string szin)
+        public Player(string nev)
         {
             name = nev;
-            color = szin;
+
             points = 0;
         }
 

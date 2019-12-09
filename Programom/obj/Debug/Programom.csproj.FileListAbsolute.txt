@@ -44,7 +44,6 @@ D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Pr
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Programom.g.resources
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Programom.Properties.Resources.resources
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Programom.csproj.GenerateResource.cache
-D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Programom.csproj.CoreCompileInputs.cache
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Programom.csproj.CopyComplete
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Programom.exe
 D:\Egyetem\Szoftverfejlesztés_módsz\UNIDEB_2019_1_2_FantasyFoglal-_PROGTRIO\Programom\obj\Debug\Programom.pdb
