@@ -22,12 +22,12 @@
                IsPassword="False"
            HorizontalOptions="Center"
            VerticalOptions="Center" WidthRequest="100" />
-        
+        <Grid>
         <Button x:Name="SW" Text="Star Wars" Clicked="SW_Clicked" 
-                BackgroundColor="Transparent" HorizontalOptions="Center" VerticalOptions="End"/>
+                BackgroundColor="Bisque" HorizontalOptions="Start" VerticalOptions="End"/>
 
-        <Button x:Name="test" Text="Test!" Clicked="test_Clicked" BackgroundColor="Cyan" HorizontalOptions="End" VerticalOptions="End"/>
-        
+            <Button x:Name="LOTR" Text="LOTR" Clicked="LOTR_Clicked" BackgroundColor="Cyan" HorizontalOptions="End" VerticalOptions="End"/>
+        </Grid>
     </StackLayout>
     
 </ContentPage>

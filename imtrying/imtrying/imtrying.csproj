@@ -7,12 +7,14 @@
 
   <ItemGroup>
     <None Remove="Assets\Images\fantasy_bkgrd.png" />
+    <None Remove="Assets\Images\Middle_earth.png" />
     <None Remove="Assets\Images\Tatmap.png" />
     <None Remove="Assets\Images\Townships_%28districts%29_of_Hungary.png" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="Assets\Images\fantasy_bkgrd.png" />
+    <EmbeddedResource Include="Assets\Images\Middle_earth.png" />
     <EmbeddedResource Include="Assets\Images\Tatmap.png" />
     <EmbeddedResource Include="Assets\Images\Townships_(districts)_of_Hungary.png" />
   </ItemGroup>

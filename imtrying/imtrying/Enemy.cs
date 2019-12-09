@@ -7,7 +7,7 @@ namespace imtrying
     class Enemy : IPlayers
     {
         private static List<string> Names = new List<string>() { "Charles", "Gilbert", "Simon", "George", "Brittany", "James", "Heather" };
-        
+
 
 
         private string name;
@@ -48,12 +48,8 @@ namespace imtrying
             points = 0;
         }
 
-          public bool IsTrue { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool IsTrue { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
-        public bool Namechecker(string a)
-        {
-            throw new NotImplementedException();
-        }
 
         public void PointDecrease()
         {
@@ -69,7 +65,7 @@ namespace imtrying
         {
             Random rand = new Random();
 
-         int number =  rand.Next(0, Names.Count-1);
+            int number = rand.Next(0, Names.Count - 1);
 
             return Names[number];
         }

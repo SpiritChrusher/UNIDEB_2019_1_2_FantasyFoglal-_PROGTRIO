@@ -33,9 +33,10 @@ namespace imtrying
             bool isNameempty = string.IsNullOrEmpty(Nameplace.Text);
             if (isNameempty) 
             {
-                Nameplace.Placeholder = "Please write in your name!";
+                Nameplace.Placeholder = "Your name!";
             }
                 else {
+                Player.gamers.Clear();
                 Player gamer = new Player();
                 gamer.Name = Nameplace.Text;
                 Player.gamers.Add(gamer);
@@ -44,22 +45,22 @@ namespace imtrying
             }
         }
 
-        private void test_Clicked(object sender, EventArgs e)
-        {
-         /*   bool isNameempty = string.IsNullOrEmpty(Nameplace.Text);
-            if (isNameempty || Player.Namechecker(Nameplace.Text))
-            {
-                Nameplace.Placeholder = "Please write in your name!";
-            }
-            else
-            { */
+           private void LOTR_Clicked(object sender, EventArgs e)
+           {
+               bool isNameempty = string.IsNullOrEmpty(Nameplace.Text);
+               if (isNameempty || Player.Namechecker(Nameplace.Text))
+               {
+                   Nameplace.Placeholder = "Please write in your name!";
+               }
+               else
+               { 
+                   Player.gamers.Clear();
+                   Player gamer = new Player();
+                   gamer.Name = Nameplace.Text;               
+                   Player.gamers.Add(gamer);
+                   Navigation.PushAsync(new MiddleEarth_Page(), true);
 
-                Player gamer = new Player();
-                gamer.Name = Nameplace.Text;               
-                Player.gamers.Add(gamer);
-                Navigation.PushAsync(new TesztPage1(), true);
-
-            //}
-        }
+               }
+           }
     }
 }

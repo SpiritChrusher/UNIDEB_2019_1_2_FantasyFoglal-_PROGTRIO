@@ -16,7 +16,11 @@ namespace imtrying
         public StarWars_Page()
         {
             InitializeComponent();
-          
+
+            pontlabel.Text = ""+Player.gamers[0].Points;
+
+            nevlabel.Text = "" + Player.gamers[0].Name;
+
 
             var assembly = typeof(StarWars_Page);
 
@@ -40,22 +44,21 @@ namespace imtrying
 
             Gameplay.Helyes = (int)Feladványok["SW"]["Kérdések"][sorszam]["answer"];
 
-            if ((int)response[0] == Gameplay.Helyes)
+            if (Gameplay.CompareInt((int)response[0], Gameplay.Helyes))
             {
-                Player.gamers[0].PointDecrease();
+                Player.gamers[0].Pointincrease();
             }
             else
             {
-                Player.gamers[0].Pointincrease();
+                Player.gamers[0].PointDecrease();
             }
             Navigation.InsertPageBefore(new StarWars_Page(), this);
             await Navigation.PopAsync();
         
             if(Player.gamers[0].Points == -300)
             {
-
+                await Navigation.PopAsync();
             }
-            //Quiz_View.ContentProperty
 
         }
 

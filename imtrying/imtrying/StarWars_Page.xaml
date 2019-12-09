@@ -10,17 +10,19 @@
     <StackLayout>
 
         <Grid>
-            
+
             <Label x:Name="pontlabel"
                 VerticalOptions="Start" 
                 HorizontalOptions="Start" 
                    HeightRequest="50"
-                   >
-                <Label.BindingContext>
-                    <m:Player/>
-                </Label.BindingContext>
-            </Label>
-            
+                   />
+
+            <Label x:Name="nevlabel"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Center"
+                   HeightRequest="50"/>
+
+
             <Button Text="Játék!" x:Name="startgame"
                 Clicked="startgame_Clicked" WidthRequest="80" 
                 HeightRequest="50" HorizontalOptions="End" 

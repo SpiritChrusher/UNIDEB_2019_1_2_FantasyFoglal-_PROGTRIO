@@ -10,7 +10,7 @@ using System.Text.RegularExpressions;
 
 namespace imtrying
 {
-   public class Player : INotifyPropertyChanged, IPlayers
+    public class Player : INotifyPropertyChanged, IPlayers
     {
         public static List<Player> gamers = new List<Player>();
 
@@ -24,13 +24,13 @@ namespace imtrying
             get => name;
             set
             {
-                if (name == value)
+                if (name == value && value != "")
                     return;
 
-                    name = "Horváth Jenő";
+                else { name = "Horváth Jenő"; }
                 //    OnPropertyChanged(nameof(Name));
-                 //  OnPropertyChanged(nameof(ShowName));
-                
+                //  OnPropertyChanged(nameof(ShowName));
+
 
             }
         }
@@ -39,8 +39,8 @@ namespace imtrying
         {
             get => email;
             set
-            {              
-                    email = value;
+            {
+                email = value;
             }
         }
 
@@ -48,7 +48,7 @@ namespace imtrying
         {
             get => password;
             set
-            {               
+            {
                 password = value;
 
             }
@@ -56,16 +56,16 @@ namespace imtrying
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-       /* private void OnPropertyChanged(string propertyName = null)
-        {
-            if (PropertyChanged != null)
-                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-        }
-        */
-     /*   void OnPropertyChanged(string name)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
-        }*/
+        /* private void OnPropertyChanged(string propertyName = null)
+         {
+             if (PropertyChanged != null)
+                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+         }
+         */
+        /*   void OnPropertyChanged(string name)
+           {
+               PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+           }*/
 
 
         int points;
@@ -80,20 +80,20 @@ namespace imtrying
                 {
                     points = value;
 
-                    if(PropertyChanged != null)
+                    if (PropertyChanged != null)
                     {
                         PropertyChanged(this, new PropertyChangedEventArgs("Points"));
                         PropertyChanged(this, new PropertyChangedEventArgs("ShowPoints"));
 
                     }
-                   // OnPropertyChanged(nameof(Points));
+                    // OnPropertyChanged(nameof(Points));
                 }
             }
         }
 
         public string ShowPoints => $"Pontok: {Points}";
 
-        public Player() { points = 0; } 
+        public Player() { points = 0; }
 
         public Player(string nev)
         {
@@ -115,7 +115,7 @@ namespace imtrying
         }
 
 
-        public bool Namechecker(string a)
+        public static bool Namechecker(string a)
         {
 
 
@@ -142,6 +142,6 @@ namespace imtrying
 
             return isOkay;
         }
-               
+
     }
 }

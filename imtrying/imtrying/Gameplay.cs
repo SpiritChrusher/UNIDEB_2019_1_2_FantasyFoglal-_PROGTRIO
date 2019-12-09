@@ -152,17 +152,7 @@ namespace imtrying
 '4. Hiba volt a számítógépes effektezésnél'
  ]
 },
-{'id': 13,
-'answer': 1,
-'question': 'Melyik helyszínre utal Obi Wan amikor az Univerzum leghitvánabb söpredékének gyülekezőhelyére utal?',
-'answers':
- [
-'1. Mos Eisley',
-'2. Coruscant',
-'3. Blaha Lújza tér',
-'4. Cato Neimoidia'
- ]
-},
+
 {'id': 14,
 'answer': 4,
 'question': 'A Cody parancsnok által vezetett 212-es légiónak milyen szín díszitette a páncélját?',
@@ -187,7 +177,7 @@ namespace imtrying
 },
 {'id': 16,
 'answer': 3,
-'question': 'Mit mondott valójában Birodalom visszavágban az ikonikus jelenetben Darth Vader Luke-nak?',
+'question': 'Mit mondott Birodalom visszavágban az ikonikus jelenetben Darth Vader Luke-nak?',
 'answers':
  [
 '1. Nem Luke! Én vagyok az apád',
@@ -196,21 +186,9 @@ namespace imtrying
 '4. Obi Wan ölte meg az apádat!'
  ]
 },
-{'id':17,
-'answer': 1,
-'question': 'Miután a Disney tulajdonába került a Star Wars franchise, a filmeken és a Klónok Háborúján kívül minden mást eltörölt kánonnak, 
-hogy hívja ezeket a műveket?',
-'answers':
- [
-'1. Legends',
-'2. Expanded Universe!',
-'3. Stories!',
-'4. Lies, deception'
- ]
-},
 {'id':18,
 'answer': 1,
-'question': 'Hanyadik évad lesz a hamarosan érkező befejező évad a Klónok Háborúja animációs sorozathoz?',
+'question': 'Hanyadik évad lesz a befejező évad a Klónok Háborúja animációs sorozathoz?',
 'answers':
  [
 '1. 7',
@@ -230,10 +208,10 @@ hogy hívja ezeket a műveket?',
 'question': 'Mi a neve az Tündének?',
 'answers':
   [
-  'Gimli',
-  'Frodó',
-  'Aragorn',
-  'Legolas'
+  '1. Gimli',
+  '2. Frodó',
+  '3. Aragorn',
+  '4. Legolas'
   ] 
 },
 { 
@@ -242,10 +220,10 @@ hogy hívja ezeket a műveket?',
 'question': 'A 3. részben melyik város ostromolják az orkok?',
 'answers':
   [
-  'Gondor',
-  'Rohan',
-  'Vasudvard',
-  'Sziklavár'
+  '1. Gondor',
+  '2. Rohan',
+  '3. Vasudvard',
+  '4. Sziklavár'
   ] 
 }
 ]
@@ -265,6 +243,14 @@ hogy hívja ezeket a műveket?',
             {
                 helyes = value;
             }
+        }
+
+        public static bool CompareInt(int a, int b)
+        {
+            if (a == b)
+                return true;
+            else
+                return false;
         }
 
 

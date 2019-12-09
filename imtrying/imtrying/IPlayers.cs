@@ -12,13 +12,12 @@ namespace imtrying
             set;
         }
 
+
         int Points
         {
             get;
             set;
         }
-
-         bool Namechecker(string a);
 
         void Pointincrease();
         void PointDecrease();
