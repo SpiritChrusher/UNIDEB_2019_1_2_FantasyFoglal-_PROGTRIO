@@ -4,8 +4,23 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="imtrying.TesztPage1">
-    <StackLayout>
+             x:Class="imtrying.TesztPage1"
+              xmlns:views="clr-namespace:imtrying"
+             xmlns:m="clr-namespace:imtrying">
+
+
+    <StackLayout x:Name="Stacklajout">
+
+        <Label Text="{Binding DateTime, StringFormat='{0:T}'}"
+           FontSize="Large"
+           HorizontalOptions="Center"
+           VerticalOptions="Center">
+
+            <Label.BindingContext>
+                <m:ClockViewModel />
+            </Label.BindingContext>
+        </Label>
+
         <Label x:Name="Question" HorizontalOptions="Center" 
                HeightRequest="120" WidthRequest="550"/>
         <Button x:Name="Answer1" HorizontalOptions="Center" 
@@ -16,8 +31,16 @@
                 HeightRequest="60" WidthRequest="550" Clicked="Answer3_Clicked"/>
         <Button x:Name="Answer4" HorizontalOptions="Center" 
                 HeightRequest="60" WidthRequest="550" Clicked="Answer4_Clicked"/>
-        <Label Text="Pontok: " TextColor="Blue" FontSize="22" 
-               HorizontalOptions="Center" HeightRequest="30" 
-               WidthRequest="300" x:Name="points"/>
-    </StackLayout>
+
+
+        <Label x:Name="lébelpontok" Text="{Binding ShowPoints} " TextColor="Blue" FontSize="22" 
+               HorizontalOptions="Center" HeightRequest="40" 
+               WidthRequest="300">
+            <Label.BindingContext>
+                <m:Player/>
+            </Label.BindingContext>
+        </Label>
+    </StackLayout> 
+
+
 </ContentPage>

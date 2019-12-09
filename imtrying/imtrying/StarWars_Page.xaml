@@ -4,20 +4,29 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="imtrying.StarWars_Page">
+             x:Class="imtrying.StarWars_Page"
+             xmlns:m="clr-namespace:imtrying">
 
     <StackLayout>
+
         <Grid>
-        <Label Text="Pontok: "
+            
+            <Label x:Name="pontlabel"
                 VerticalOptions="Start" 
                 HorizontalOptions="Start" 
                    HeightRequest="50"
-                   />
-        <Button Text="Játék!" x:Name="startgame"
+                   >
+                <Label.BindingContext>
+                    <m:Player/>
+                </Label.BindingContext>
+            </Label>
+            
+            <Button Text="Játék!" x:Name="startgame"
                 Clicked="startgame_Clicked" WidthRequest="80" 
                 HeightRequest="50" HorizontalOptions="End" 
                 VerticalOptions="Start"
                 />
+
         </Grid>
         <Image x:Name="Tatoo" Aspect="AspectFill" 
                HorizontalOptions="Center" VerticalOptions="Center"

@@ -36,6 +36,9 @@ namespace imtrying
                 Nameplace.Placeholder = "Please write in your name!";
             }
                 else {
+                Player gamer = new Player();
+                gamer.Name = Nameplace.Text;
+                Player.gamers.Add(gamer);
                 Navigation.PushAsync(new StarWars_Page(), true);
 
             }
@@ -49,7 +52,7 @@ namespace imtrying
                 Nameplace.Placeholder = "Please write in your name!";
             }
             else
-            {*/
+            { */
 
                 Player gamer = new Player();
                 gamer.Name = Nameplace.Text;               

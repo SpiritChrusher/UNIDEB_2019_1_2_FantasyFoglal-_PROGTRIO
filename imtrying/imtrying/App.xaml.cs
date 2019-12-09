@@ -11,7 +11,7 @@ namespace imtrying
             InitializeComponent();
 
             MainPage = new NavigationPage(new MainPage());
-
+          //  StarWars_Page = new NavigationPage(new StarWars_Page());
 
         
         }

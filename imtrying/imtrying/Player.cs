@@ -18,23 +18,24 @@ namespace imtrying
 
         private string password;
 
-        private string name;
+        public string name;
         public string Name
         {
             get => name;
             set
             {
-                if (!value.Equals(null))
-                {
-                    name = value;
-                }
-                else
-                {
-                    name = "Horváth Jenő";
-                }
+                if (name == value)
+                    return;
+
+                  //  name = "Horváth Jenő";
+                //    OnPropertyChanged(nameof(Name));
+                 //  OnPropertyChanged(nameof(ShowName));
+                
 
             }
         }
+
+    //    public string ShowName => $"Name is: {Name}";
 
 
         private string color;
@@ -67,28 +68,42 @@ namespace imtrying
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        private void OnPropertyChanged(string propertyName = null)
+       /* private void OnPropertyChanged(string propertyName = null)
         {
             if (PropertyChanged != null)
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
         }
+        */
+     /*   void OnPropertyChanged(string name)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+        }*/
 
-        private int points;
+
+        int points;
 
         public int Points
         {
             get => points;
-            
+
             set
             {
                 if (points != value)
                 {
                     points = value;
-                    OnPropertyChanged("Points");
-                }
 
+                    if(PropertyChanged != null)
+                    {
+                        PropertyChanged(this, new PropertyChangedEventArgs("Points"));
+                        PropertyChanged(this, new PropertyChangedEventArgs("ShowPoints"));
+
+                    }
+                   // OnPropertyChanged(nameof(Points));
+                }
             }
         }
+
+        public string ShowPoints => $"Pontok: {Points}";
 
   /*      private int helyes;
 

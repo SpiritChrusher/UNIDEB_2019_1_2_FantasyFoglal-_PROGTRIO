@@ -21,10 +21,10 @@ namespace imtrying
 'question': 'Mi a neve a Főgonosznak?',
 'answers':
   [
-  'Luke Skywalker',
-  'Han Solo',
-  'Ben Kenobi',
-  'Palpatine'
+  '1. Luke Skywalker',
+  '2. Han Solo',
+  '3. Ben Kenobi',
+  '4. Palpatine'
   ] 
 },
 {
@@ -33,10 +33,10 @@ namespace imtrying
 'question': 'Mi a Havas bolygó neve?',
 'answers':
   [
-  'Hoth',
-  'Tatooine',
-  'Korusant',
-  'Endor'
+  '1. Hoth',
+  '2. Tatooine',
+  '3. Korusant',
+  '4. Endor'
   ] 
 },
 {
@@ -45,10 +45,10 @@ namespace imtrying
 'question': 'Kicsoda Darth Vader?',
 'answers':
   [
-  'Én',
-  'Anakin Skywalker',
-  'Yoda',
-  'Mace Windoo'
+  '1. Én',
+  '2. Anakin Skywalker',
+  '3. Yoda',
+  '4. Mace Windoo'
   ] 
 },
 {
@@ -57,10 +57,10 @@ namespace imtrying
 'question': 'Kit csókol meg legelőször Leia?',
 'answers':
   [
-  'Han Solo-t',
-  'Darth Vader-t',
-  'Luke Skywalker-t',
-  'Ben Kenobi-t'
+  '1. Han Solo-t',
+  '2. Darth Vader-t',
+  '3. Luke Skywalker-t',
+  '4. Ben Kenobi-t'
   ] 
 },
 {
@@ -69,10 +69,10 @@ namespace imtrying
 'question': 'Ki a kiválasztott?',
 'answers':
   [
-  'Anakin Skywalker',
-  'Darth Vader',
-  'Obi-Wan Kenobi',
-  'Yoda mester'
+  '1. Anakin Skywalker',
+  '2. Darth Vader',
+  '3. Obi-Wan Kenobi',
+  '4. Yoda mester'
   ] 
 },
 {'id': 6,
@@ -80,10 +80,10 @@ namespace imtrying
 'question': 'Kik az Evokok?',
 'answers':
   [
-  'Jabba alatvalói',
-  'Fejvadászok',
-  'Erdőben élő macik',
-  'Hószörnyek'
+  '1. Jabba alatvalói',
+  '2. Fejvadászok',
+  '3. Erdőben élő macik',
+  '4. Hószörnyek'
   ] 
 },
 {'id': 7,
@@ -91,10 +91,10 @@ namespace imtrying
 'question': 'Hány parsec alatt tette meg Han a Kesseli utat?',
 'answers':
  [
-'10',
-'11',
-'12',
-'13'
+'1. 10',
+'2. 11',
+'3. 12',
+'4. 13'
  ]
 },
 {'id': 8,
@@ -102,10 +102,10 @@ namespace imtrying
 'question': 'Minek a mértékegysége a parsec?',
 'answers':
  [
-'idő',
-'távolság',
-'tömeg',
-'hatásfok'
+'1. idő',
+'2. távolság',
+'3. tömeg',
+'4. hatásfok'
  ]
 },
 {'id': 9,
@@ -113,10 +113,10 @@ namespace imtrying
 'question': 'Hány lába van egy AT-AT-nak?',
 'answers':
  [
-'2',
-'3',
-'4',
-'6'
+'1. 2',
+'2. 3',
+'3. 4',
+'4. 6'
  ]
 },
 {'id': 10,
@@ -124,10 +124,10 @@ namespace imtrying
 'question': 'Hol forgatták a jeleneteket a Tatooin-hoz?',
 'answers':
  [
-'Tunézia',
-'Új-Zéland',
-'Colorado',
-'Izland'
+'1. Tunézia',
+'2. Új-Zéland',
+'3. Colorado',
+'4. Izland'
  ]
 },
 {'id': 11,
@@ -135,10 +135,10 @@ namespace imtrying
 'question': 'Melyik számozott rész KÖZVETLEN előzménye a Zsivány Egyes?',
 'answers':
  [
-'A klónok támadása',
-'A Sithek bosszúja',
-'Egy új remény',
-'Solo'
+'1. A klónok támadása',
+'2. A Sithek bosszúja',
+'3. Egy új remény',
+'4. Solo'
  ]
 },
 {'id': 12,
@@ -146,10 +146,10 @@ namespace imtrying
 'question': 'Miért lila Windu fénykardja?',
 'answers':
  [
-'Mert ő a legerősebb fénykard forgató',
-'Mert Samuel L Jackson így akarta',
-'Egy különleges általa készített kristály miatt',
-'Hiba volt a számítógépes effektezésnél'
+'1. Mert ő a legerősebb fénykard forgató',
+'2. Mert Samuel L Jackson így akarta',
+'3. Egy különleges általa készített kristály miatt',
+'4. Hiba volt a számítógépes effektezésnél'
  ]
 },
 {'id': 13,
@@ -157,10 +157,10 @@ namespace imtrying
 'question': 'Melyik helyszínre utal Obi Wan amikor az Univerzum leghitvánabb söpredékének gyülekezőhelyére utal?',
 'answers':
  [
-'Mos Eisley',
-'Coruscant',
-'Blaha Lújza tér',
-'Cato Neimoidia'
+'1. Mos Eisley',
+'2. Coruscant',
+'3. Blaha Lújza tér',
+'4. Cato Neimoidia'
  ]
 },
 {'id': 14,
@@ -168,10 +168,10 @@ namespace imtrying
 'question': 'A Cody parancsnok által vezetett 212-es légiónak milyen szín díszitette a páncélját?',
 'answers':
  [
-'Piros',
-'Kék',
-'Zöld',
-'Sárga'
+'1. Piros',
+'2. Kék',
+'3. Zöld',
+'4. Sárga'
  ]
 },
 {'id': 15,
@@ -179,10 +179,10 @@ namespace imtrying
 'question': 'A Cody parancsnok által vezetett 212-es légiónak milyen szín díszitette a páncélját?',
 'answers':
  [
-'Piros',
-'Kék',
-'Zöld',
-'Sárga'
+'1. Piros',
+'2. Kék',
+'3. Zöld',
+'4. Sárga'
  ]
 },
 {'id': 16,
@@ -190,10 +190,10 @@ namespace imtrying
 'question': 'Mit mondott valójában Birodalom visszavágban az ikonikus jelenetben Darth Vader Luke-nak?',
 'answers':
  [
-'Nem Luke! Én vagyok az apád',
-'Én vagyok az Apád!',
-'Nem, én vagyok az apád!',
-'Obi Wan ölte meg az apádat!'
+'1. Nem Luke! Én vagyok az apád',
+'2. Én vagyok az Apád!',
+'3. Nem, én vagyok az apád!',
+'4. Obi Wan ölte meg az apádat!'
  ]
 },
 {'id':17,
@@ -202,10 +202,10 @@ namespace imtrying
 hogy hívja ezeket a műveket?',
 'answers':
  [
-'Legends',
-'Expanded Universe!',
-'Stories!',
-'Lies, deception'
+'1. Legends',
+'2. Expanded Universe!',
+'3. Stories!',
+'4. Lies, deception'
  ]
 },
 {'id':18,
@@ -213,10 +213,10 @@ hogy hívja ezeket a műveket?',
 'question': 'Hanyadik évad lesz a hamarosan érkező befejező évad a Klónok Háborúja animációs sorozathoz?',
 'answers':
  [
-'7',
-'8!',
-'4!',
-'10'
+'1. 7',
+'2. 8',
+'3. 4',
+'4. 10'
  ]
 }
 ]
