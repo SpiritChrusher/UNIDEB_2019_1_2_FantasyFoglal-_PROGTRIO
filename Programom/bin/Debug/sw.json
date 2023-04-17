@@ -141,13 +141,13 @@
 },
 {'id': 13,
 'answer': 1,
-'question': 'Melyik helyszínre utal Obi Wan amikor az Univerzum leghitvánabb söpredékének gyülekezőhelyére utal?',
+'question': 'Melyik helyszínre utal Obi Wan amikor az Univerzum leghitványabb söpredékének gyülekezőhelyére utal?',
 'answers':
  [
 'Mos Eisley',
-'Coruscant',
-'Blaha Lújza tér',
-'Cato Neimoidia'
+'Magyar Parlament',
+'Blaha Lujza tér',
+'Coruscant'
  ]
 },
 {'id': 14,
